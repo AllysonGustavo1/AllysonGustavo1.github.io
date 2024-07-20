@@ -1,0 +1,42 @@
+.about {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 50px 0;
+  scroll-margin-top: 10rem;
+}
+
+.about__left {
+  flex: 1; 
+  padding-right: 20px;
+}
+
+.about__right {
+  text-align: center;
+  margin: auto;
+  width: fit-content;
+}
+
+.secondary-title {
+  color: #333;
+  font-size: 2em;
+}
+
+.about__content p {
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold; 
+  transition: background-color 0.3s; 
+}
+
+.btn:hover {
+  background-color: #00a0d6; 
+}
